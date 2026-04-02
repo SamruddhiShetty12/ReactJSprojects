@@ -1,0 +1,49 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body {
+  margin: 0;
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #020617;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgb(97, 233, 206) 26%,
+    rgb(182, 185, 244) 50%,
+    rgb(173, 209, 132) 75%,
+    rgb(239, 241, 113) 93%,
+    rgb(22, 131, 221) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: larger;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
