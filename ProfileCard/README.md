@@ -1,16 +1,98 @@
-# React + Vite
+# 👩‍💻 React Profile Card Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project that displays multiple professional profile cards using props. The UI is designed with a modern dark theme.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* Reusable **ProfileCard component**
+* Props used to pass dynamic data
+* Props Destructuring for cleaner code
+* Conditional rendering (Available / Not Available)
+* Dark theme UI
+* Hover animations
+* Online/Offline status indicator
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React JS
+* HTML
+* CSS
+
+---
+
+## 📸 Project Overview
+
+Displays 10 team members with:
+
+* Name
+* Age
+* Role
+* Bio
+* Status
+* Profile Image
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│    ├── ProfileCard.jsx
+│    └── ProfileCard.css
+├── App.jsx
+├── App.css
+└── main.jsx
+
+---
+
+## 💡 Concepts Used
+
+* Props
+* Props Destructuring
+* Conditional Rendering
+* Component Reusability
+
+---
+
+## 🧠 Props Destructuring
+
+Props destructuring is used to directly extract values from props instead of using `props.name`, `props.age`, etc.
+
+### Example:
+
+```jsx
+function ProfileCard({ name, age, src, ispresent }) {
+  return (
+    <>
+      <h2>{name}</h2>
+      <p>{age}</p>
+    </>
+  );
+}
+```
+
+This makes the code cleaner, shorter, and easier to read.
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository
+2. Install dependencies
+   npm install
+3. Run the project
+   npm run dev
+
+---
+
+## 👩‍🎓 Author
+
+**Samruddhi Shetty**
+
+---
+
+✨ This project is built to understand React basics and component-based UI design.
