@@ -49,7 +49,7 @@ Getting Started:
    npm run dev
 
 The application runs at:
-http://localhost:5173
+https://jsxruless.netlify.app/
 
 Purpose:
 
