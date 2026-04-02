@@ -86,7 +86,7 @@ This makes the code cleaner, shorter, and easier to read.
    npm install
 3. Run the project
    npm run dev
-
+To view:https://profilecardss12.netlify.app/
 ---
 
 ## 👩‍🎓 Author
